@@ -1,0 +1,359 @@
+/*
+* Facebook | v1.0.0 | Developed by Oussama Mansour.
+*/
+* {
+    box-sizing:border-box;
+}
+.container {
+	max-width:1024px;
+	margin:0 auto;
+	overflow:hidden
+}
+
+/* Start Header */
+
+header {
+	background:-webkit-linear-gradient(rgb(78,105,162),rgb(59,89,152));
+	background:-moz-linear-gradient(rgb(78,105,162),rgb(59,89,152));
+	background:-o-linear-gradient(rgb(78,105,162),rgb(59,89,142));
+	background:linear-gradient(rgb(78,105,162) 5%,rgb(59,89,152) 95%);
+}
+header .container .logo {
+	float:left;
+	width:55%;
+	padding:27px 0 8px 5px
+}
+header .container .logo a {
+	color:#fff;
+	font-size:40px;
+	text-transform:lowercase;
+	font-family: 'Cabin', sans-serif;
+	font-weight:900;
+	text-decoration:none
+}
+header .container .login {
+	width:45%;
+	float:right;
+	overflow:hidden;
+	color:#fff;
+	font-family: 'Ubuntu', sans-serif;
+}
+header .container .login .email,
+header .container .login .password,
+header .container .login .submit{
+	float:left;
+	padding:12px 8px
+}
+header .container .login .submit{
+	padding:33px 5px
+}
+header .container .login span,
+header .container .login input,
+header .container .login button {
+	display:block;
+}
+header .container .login span {
+	cursor:default;
+	font-size:14px;
+	padding-bottom:5px
+}
+header .container .login input {
+	width:170px;
+	padding:1px 3px;
+	font-size:16px;
+	font-family: 'Ubuntu', sans-serif;
+}
+header .container .login input:focus {
+	outline:none;
+}
+header .container .login .password input {
+	margin-bottom:5px;
+}
+header .container .login a {
+	color:#98B0D5;
+	font-size:14px;
+	text-decoration:none
+}
+header .container .login a:hover {
+	text-decoration:underline
+}
+header .container .login button {
+	border:1px solid #666;
+	background-color:#4267B2;
+	color:#fff;
+	font-size:14px;
+	font-family: 'Ubuntu', sans-serif;
+	padding:3px 6px
+}
+header .container .login button:hover {
+	cursor:pointer;
+}
+
+/* End Header */
+
+/* Start Content */
+
+/* Start Info */
+
+.content {
+	background-color:#EDF0F5;
+}
+.content .info {
+	width:58%;
+	float:left;
+	cursor:default
+}
+.content .sign-up {
+	width:42%;
+	float:left
+}
+.content .info .social {
+	padding:35px 0 35px 5px 
+}
+.content .info .social h2{
+	color:#333;
+	font-size:30px;
+	line-height:1.3;
+	font-family: 'Cabin', sans-serif;
+	margin-bottom:30px
+}
+.content .info .social .features .feat1,/**/
+.content .info .social .features .feat2,
+.content .info .social .features .feat3{
+	overflow:hidden;
+	padding:20px 5px;
+}
+.content .info .social .features .feat-logo {
+	float:left;
+	width:14%
+}
+.content .info .social .features .feat-text {
+	float:left;
+	width:86%
+}
+.content .info .social .features .feat-logo i{
+	color:#AEBAD5;
+	font-size:54px;
+	padding-right:7px
+}
+.content .info .social .features .feat-text p{
+	color:#666;
+	font-size:16px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.content .info .social .features .feat-text p span{
+	color:#000;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+/* End Info */
+
+/* Start Sign Up */
+
+.content .sign-up {
+	font-family: 'Ubuntu', sans-serif
+}
+.content .sign-up h1 {
+	color:#333;
+	font-size:40px;
+	font-family: 'Cabin', sans-serif;
+	margin-bottom:0;
+	cursor:default
+}
+.content .sign-up h3 {
+	color:#333;
+	font-size:20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:100;
+	margin:10px 0;
+	cursor:default
+}
+.content form {
+	overflow:hidden;
+	font-family: 'Ubuntu', sans-serif
+}
+.content form  .inputs{
+	overflow:hidden;
+}
+.content form .inputs input{
+	display:block;
+	float:left;
+	height:38px;
+	margin:3% 3% 0 0;
+	padding:5px 7px;
+	font-size:18px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.content form .inputs input[name="first-name"]{
+	width:48%;
+	float:left;
+	margin:3% 2.5% 0 0;
+}
+.content form .inputs input[name="last-name"]{
+	width:48%;
+	float:left;
+	margin:3% 0 0 0;
+}
+.content form .inputs input[type="email"],
+.content form .inputs input[type="password"]{
+	width:98.5%;
+	float:left;
+}
+.content form input[type="password"]{
+	margin-bottom:15px;
+}
+.content form .birthday {
+	overflow:hidden
+}
+.content form .birthday span {
+	cursor:default;
+	display:block;
+	margin-bottom:15px;
+	font-size:18px;
+}
+.content form .birthday select {
+	display:block;
+	float:left;
+	width:19%;
+	margin:0 .5%;
+	padding:4px 2px;
+	border:1px solid #bbb; 
+	font-family: 'Ubuntu', sans-serif;
+}
+.content form .birthday a {
+	display:block;
+	float:left;
+	width:36%;
+	margin:0 2%;
+	color:#4E69A2;
+	font-size:12px;
+	text-decoration:none;
+	line-height:1.2
+}
+.content form .birthday a:hover {
+	text-decoration:underline
+}
+.content form .genre {
+	margin:18px 8px
+}
+.content form .genre span {
+	cursor:default;
+	margin-left:5px
+}
+.content form .genre span:first-of-type {
+	margin-right:12px
+}
+.content form .paragraph  {
+	color:#888;
+	font-size:13px;
+	line-height:1.4;
+	text-align:justify;
+	margin-bottom:10px
+}
+.content form .paragraph a {
+	color:#3C5A99;
+	text-decoration:none
+}
+.content form .paragraph a:hover {
+	text-decoration:underline
+}
+.content form .submit button {
+	width:40%;
+	padding:10px 15px;
+	color:#fff;
+	font-size:17px;
+	font-family: 'Ubuntu', sans-serif;
+	background-color:#4CAF50;
+	border:none;
+	border-radius:5px
+}
+.content form .submit button:hover {
+	outline:none;
+	cursor:pointer
+}
+.content form .submit button:active {
+	outline:none;
+}
+.content hr {
+	border:0.01px solid #ddd;
+	margin:15px 0
+}
+.content .create-page p {
+	color:#333;
+	margin-bottom:40px;
+	font-size:15px;
+}
+.content .create-page p a {
+	color:#3C5A99;
+	text-decoration:none
+}
+.content .create-page p a:hover {
+	text-decoration:underline
+}
+/* End Sign-up */
+
+/* End Content */
+
+/* Start Footer */
+
+footer {
+	font-family: 'Ubuntu', sans-serif;
+	cursor:default
+}
+footer .container .actions,
+footer .container .languages {
+	padding:10px 2px;
+	border-bottom:1px solid #ddd;
+}
+footer a {
+	color:#3E5C9A;
+	font-size:14px;
+	text-decoration:none;
+	margin-right:8px;
+	cursor:pointer
+}
+footer a:hover {
+	text-decoration:underline
+}
+footer .languages a i {
+	font-size:14px;
+	line-height:0.3;
+	vertical-align:middle;
+	text-decoration:none;
+	cursor:pointer;
+	padding:5px 4px;
+	border:1px solid #3E5C9A
+}
+footer .languages a[lang="ar"] {
+	font-family: 'Droid Arabic Kufi', sans-serif;
+}
+footer .features {
+	padding:5px 0;
+	border-bottom:1px solid #ddd;
+}
+footer .features table {
+	width:100%;
+    border-spacing: 0;
+}
+footer .features td {
+	margin:0;
+	padding:4px 0;
+}
+footer .features td.ad a {
+	margin:0
+}
+footer .features td.ad i {
+	display:inline;
+	color:#999;
+	font-size:17px;
+	line-height:0.4;
+	vertical-align:middle;
+	text-decoration:none;
+	cursor:pointer
+}
+footer .copyright {padding-top:4px}
+footer .copyright span {
+	color:#666;
+	font-size:14px;
+}
